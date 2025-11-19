@@ -6,7 +6,8 @@ import { Provider } from 'react-redux';
 
 import HomeScreen from './screens/HomeScreen';
 import CounterScreen from './screens/CounterScreen';
-import store from './store/store'; // import Redux store
+
+import store from './store'; 
 
 enableScreens();
 
